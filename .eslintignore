@@ -1,0 +1,7 @@
+src/**/*.test.ts
+test/**
+build
+commitlint.config.js
+jest.config.base.js
+jest.config.js
+jest-setup.js

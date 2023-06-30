@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "module": "CommonJS",
+      "lib": [
+        "dom",
+        "esnext"
+      ],
+      "declaration": true,
+      "noImplicitAny": false,
+      "skipLibCheck": true,
+      "noUncheckedIndexedAccess": true,
+      "noPropertyAccessFromIndexSignature": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": false,
+      "importHelpers": true,
+      "removeComments": true,
+      "esModuleInterop": true,
+      "noLib": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "ES5",
+      "sourceMap": false,
+      "allowJs": false,
+      "strict": true,
+      "strictNullChecks": false,
+      "paths": {
+        "@ui/*": [
+          "./packages/ui/src/*"
+        ],
+        "@tools/*": [
+          "./packages/tools/src/*"
+        ],
+        "@hooks/*": [
+          "./packages/hooks/src/*"
+        ],
+        "@icon/*": [
+          "./packages/icons/src/*"
+        ]
+      }
+    },
+    "include": [
+      "./packages/**/*.ts",
+      "./packages/**/*.tsx",
+      "./packages/**/*.js",
+      "./packages/**/*.jsx"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts",
+    ]
+  }
