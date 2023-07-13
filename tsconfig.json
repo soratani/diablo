@@ -27,6 +27,9 @@
       "@/*": [
         "./src/app/*"
       ],
+      "@components/*": [
+        "./src/components/*"
+      ],
       "@lib/*": [
         "./src/lib/*"
       ],
@@ -41,6 +44,9 @@
       ],
       "@icon/*": [
         "./packages/icons/src/*"
+      ],
+      "types/*": [
+        "./types/*"
       ]
     }
   },

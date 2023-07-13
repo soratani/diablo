@@ -11,7 +11,7 @@ import rehypeMetaAttribute from '@lib/meta-attribute';
 import rehypeHighlightCode from '@lib/highlight-code';
 
 const ROOT_PATH = process.cwd();
-export const DATA_PATH = path.join(ROOT_PATH, 'data');
+export const DATA_PATH = path.join(ROOT_PATH, 'docs');
 
 // the front matter and content of all mdx files based on `docsPaths`
 export const getAllFrontmatter = (fromPath: string) => {
